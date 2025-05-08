@@ -1,0 +1,48 @@
+.footer {
+    background-color: #1f2937;
+    padding: 30px 15px;
+    color: #f9fafb;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center all items */
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px; /* reduced spacing between icons */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons a {
+    font-size: 1.4rem; /* slightly smaller icon size */
+    color: #f3f4f6;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #3b82f6;
+    transform: scale(1.2);
+  }
+  
+  .contact-info {
+    text-align: center;
+    color: #2159c9;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #9ca3af;
+    text-align: center;
+  }
+  

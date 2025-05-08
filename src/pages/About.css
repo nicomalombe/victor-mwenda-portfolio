@@ -1,0 +1,112 @@
+/* Container for the entire About page */
+.about-page {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #544b4b;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Each section in its own styled container */
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #544b4b;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 1100px;
+    gap: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-section:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Reverse class to alternate image and text positions */
+  .about-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Image container */
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text container */
+  .text-container {
+    flex: 1.5;
+  }
+  
+  .text-container h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #0e25f8ef;
+  }
+  
+  .text-container p,
+  .text-container ul {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #16e00c;
+  }
+  
+  .text-container ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-section,
+    .about-section.reverse {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-container {
+      flex: unset;
+      width: 100%;
+    }
+  
+    .image-container {
+      flex: unset;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .profile-image {
+    animation: pulse 6s infinite;
+  }
+    
