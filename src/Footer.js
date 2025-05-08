@@ -43,7 +43,16 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="X"
           >
-            <i className="fab fa-x"></i> {/* Changed icon to X (Twitter replaced) */}
+            <i className="fab fa-x-twitter"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/favio_dimba/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
 
