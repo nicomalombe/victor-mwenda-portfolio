@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import aboutImg from '../assets/vic.jpg';
+import aboutImg from '../assets/nico1.jpg';
 import educationImg from '../assets/education.jpeg';
 import skillsImg from '../assets/skills.jpeg';
 import experienceImg from '../assets/experience.jpeg';
@@ -20,7 +20,7 @@ const About = () => {
         <div className="text-container">
           <h2>About Me</h2>
           <p>
-            I’m <strong>Victor</strong>, a dedicated Computer Science student at <strong>Karatina University</strong>, 
+            I’m <strong>nicodemus</strong>, a dedicated Computer Science student at <strong>Karatina University</strong>, 
             graduating in <strong>September</strong>. I'm passionate about creating digital experiences that are
             intuitive, engaging, and efficient. I enjoy exploring new technologies and applying them to solve
             real-world challenges. I am highly specialized in <strong>Software Development, Android Development (mobile app), Website Design & Development, 

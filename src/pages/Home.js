@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Home.css';
-import profileImage from '../assets/vic.jpg'; 
+import profileImage from '../assets/nico.jpg'; 
 import Footer from '../Footer';
 
 const Home = () => {
@@ -30,7 +30,7 @@ const Home = () => {
         <br />
 <Footer />
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Victor Mwenda Mururu. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} nicodemus malombe. All rights reserved.</p>
         </div>
       </div>
     </div>
